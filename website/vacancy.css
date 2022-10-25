@@ -1,0 +1,17 @@
+h1{
+    text-align:left;
+    align-self: center;
+    font-size: large;
+    color: brown;
+}
+body{
+    background-color: blueviolet;
+}
+select{
+align-items: center;
+}
+.tew{
+    padding: 3%;
+    margin: auto;
+    
+}

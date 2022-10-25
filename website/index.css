@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+    background-image:url(/-5974410641471026265_120.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-position: center;
+
+}
+
+nav {
+    background-color: rgba(245, 245, 220, 0.781);
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin-top: 0px;
+}
+
+
+button {
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    float: right;
+}

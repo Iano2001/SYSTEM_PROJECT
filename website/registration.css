@@ -1,0 +1,24 @@
+body{
+    
+    justify-content: center;
+    background-color: aqua;
+}
+.container{
+    margin: auto;
+    border  :solid 10px slateblue ;
+    align-items: center;
+    width: 20%;
+    height:30%;
+}
+h1{
+    font-family: sans-serif;
+    color: blue;
+    text-align: center;
+}
+input{
+    width: 250px;
+}
+button{
+    margin-left: 20px;
+    width: 100px;
+}

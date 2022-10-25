@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(224, 218, 218);
+    justify-content: center;
+    display: flex;
+    padding: 5%;
+
+}
+
+.container {
+    background-color: rgba(155, 153, 153, 0.808);
+    width: 1000%;
+    border: solid 1px black;
+    padding-top: 30px;
+    padding-right: 30px; 
+    padding-left: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+    text-align: left;
+
+}
+.container .identification {
+    background: transparent;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: solid 1px black;
+
+
+}
+
+
+.container .password {
+    border: none;
+    border-bottom: solid 1px black;
+    background: transparent;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    margin: 0px;
+    border: none ;
+    background: transparent;
+    height: 100%;
+}
+
+button {
+    height: 10%;
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background: transparent;
+
+}
