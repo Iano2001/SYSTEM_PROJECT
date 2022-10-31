@@ -1,8 +1,9 @@
 body {
-    background-color: rgb(224, 218, 218);
+    background-image:linear-gradient(to bottom, rgb(224, 218, 218), black);
     justify-content: center;
     display: flex;
     padding: 5%;
+    height: 100%;
 
 }
 

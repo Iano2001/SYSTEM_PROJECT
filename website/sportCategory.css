@@ -1,6 +1,13 @@
 
 
-
+nav {
+    background-color: rgba(245, 245, 220, 0.781);
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin-top: 0px;
+}
 
 button {
     border: solid 1px black;
@@ -12,15 +19,13 @@ button {
     float: right;
 }
 
-
-
 .container {
     width: 100%;
     height: auto;
     background: #007bbf;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-flow: wrap;
 }
 
@@ -31,6 +36,10 @@ button {
     font-size: smaller;
     width: 300px;
     height: max-content;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+}
 
 @media screen and (max-width:1200px) {
     .box {
@@ -39,11 +48,9 @@ button {
     
 }
 
-
 @media screen and (max-width:600px) {
     .box {
         width: 90%;
     }
     
-} 
-
+}

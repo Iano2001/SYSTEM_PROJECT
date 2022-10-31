@@ -1,9 +1,11 @@
 body {
     background-color: white;
-    background-image:url(/-5974410641471026265_120.jpg) ;
+    background-image:url(/images/logo.png) ;
     background-repeat: no-repeat;
     background-attachment:fixed ;
     background-position: center;
+    background-size:cover ;
+
 
 }
 
@@ -14,6 +16,8 @@ nav {
     justify-content: right;
     flex-direction: row;
     margin-top: 0px;
+    color: black;
+    border-radius: 30px;
 }
 
 
@@ -25,4 +29,9 @@ button {
     text-align: center;
     margin: 10px;
     float: right;
+    color: black;
+    border: none;
+    border-bottom: solid 1px black;
+    background-image: linear-gradient(to right, white, gray);
+    width: 70px;
 }

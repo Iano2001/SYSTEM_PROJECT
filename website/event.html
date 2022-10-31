@@ -8,10 +8,51 @@
     <link rel="stylesheet" href="event.css">
 </head>
 <body>
+    <nav>
+        <button><a href=" /index.html">Home </a></button>
+        <button><a href="/event.html">Events</a></button>
+        <button> <a href="/registration.html">Register</a></button>
+        <button><a href="/login.html">Log In</a></button>
+        <button><a href="/sportCategory.html">Sport</a></button>
+
+    </nav>
+
     <div class="container">
-        <div class="tb" >
-            <table border="3px">
-                <caption style="font-size: 50px; color: darkred;">UPCOMING EVENTS</caption>
+        <div class="new_event">
+            <h1>CREATE AN EVENT</h1>
+            <form action="#">
+                <label for="eventName">Event Name: </label>
+                <input type="text" required /> <br>
+
+                <label for="event_manager"> Event manager: </label>
+                <input type="text" /> <br>
+
+                <label for="email">Email: </label>
+                <input type="email" required> <br>
+                
+                <label for="phone_number">Phone number: </label>
+                <input type="tel"/> <br>
+
+                <label for="date">Date: </label>
+                <input type="date" required/><br>
+                
+                <label for="Time">Time: </label>
+                <input type="time"> <br>
+
+                <label for="description">About event: </label> <br>
+                <input type="text" maxlength="400" class="description"/> <br>
+                
+                
+
+                     
+               <button type="button" value="submit "> Create</button>
+
+               <button type="button" value="submit "> Cancel </button>
+            </form>
+            </div>
+        <div class="posted_events" >
+            <table>
+                <caption>UPCOMING EVENTS </caption>
                 <tr>
                     <th>Name</th>
                     <th>Date</th>
@@ -38,44 +79,7 @@
             </table>
         </div>
         
-        <div class="frm">
-            <caption style=" font-size: 50px; color:darkred;" >CREATE AN EVENT</caption>
-            <form action="#">
-                <label for="author">Name</label><br
-                ><input type="text" maxlength="20" id="author" class="input_field" name="author"/>
-                <div class="name_area"></div>
         
-                <label for="author">Date</label><br
-                ><input type="text" maxlength="20" id="author" class="input_field" name="author"/>
-                <div class="name_area"></div>
-        
-                <label for="author">Time</label><br
-                ><input type="text" maxlength="20" id="author" class="input_field" name="author"/>
-                <div class="name_area"></div>
-                
-                <label for="author">Email</label><br>
-                <input type="text" maxlength="20" id="Email" class="input_field" name="Email"/>
-                <div class="Email_area"></div>
-        
-                <label for="author">Phone number</label><br>
-                <input type="integer" maxlength="10" id="Subject" class="input_field" name="Subject"/>
-                <div class="Subject_area"></div>
-        
-                <label for="author">About</label><br>
-                <input type="text" maxlength="8"
-                 id="author"class="required"/>
-                <div class="Message_area"></div>
-        
-                <label for="author">Event manager</label><br>
-                <input type="text" maxlength="8"
-                 id="author"class="required"/>
-                <div class="Message_area"></div>
-        
-        
-                <input type="Submit" value="Create" id="Submit" name="submit" class="submit_button_s"/>
-              
-            </form>
-            </div>
     </div>
    
     
